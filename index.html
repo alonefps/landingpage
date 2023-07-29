@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <link rel="shortcut icon" href="./assets/favicon.png" />
+
+    <title>Evento Gratuito</title>
+  </head>
+  <body class="bg-[url('./assets/bg.png')] bg-no-repeat bg-cover">
+    <div class="flex text-white justify-center items-center mt-24 gap-20">
+      <div class="flex flex-col items-center max-w-[600px]">
+        <img
+          src="./assets/vyvatech.png"
+          alt="Logo da vyvatech"
+          height="200px"
+          width="250px"
+        />
+        <h1 class="text-5xl font-bold mt-10">
+          Fique por dentro das próximas edições
+        </h1>
+        <p class="text-xl mt-10">
+          O Next Level Week é um evento gratuito de programação na prática de
+          uma semana que tem o objetivo de te levar para o próximo nível na
+          programação.
+        </p>
+        
+      </div>
+
+      <div
+        class="border-2 rounded-2xl backdrop-blur flex flex-col items-center max-w-[550px]"
+      >
+        <div class="m-6">
+          <h1 class="text-2xl font-semibold">
+            <span class="text-teal-300">Inscreva-se gratuitamente</span>
+            para receber as novidades e concorra a uma camiseta
+          </h1>
+
+          <form action="">
+            <div class="mt-8 relative">
+              <input
+                type="text"
+                placeholder="Seu nome completo"
+                class="py-4 pl-10 pr-3 w-full bg-zinc-800 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-300 focus:border-teal-300 hover:ring-2 hover:border-teal-300"
+                required
+              />
+              <ion-icon
+                class="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-300"
+                name="person-outline"
+              ></ion-icon>
+            </div>
+            <div class="mt-4 relative">
+              <input
+                type="text"
+                placeholder="Seu número de WhatsApp"
+                class="py-4 pl-10 pr-3 w-full bg-zinc-800 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-300 focus:border-teal-300 hover:ring-2 hover:border-teal-300"
+                required
+              />
+              <ion-icon
+                class="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-300"
+                name="call-outline"
+              ></ion-icon>
+            </div>
+            <div class="mt-4 relative">
+              <input
+                type="text"
+                placeholder="Digite seu email"
+                class="py-4 pl-10 pr-3 w-full bg-zinc-800 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-300 focus:border-teal-300 hover:ring-2 hover:border-teal-300"
+                required
+              />
+              <ion-icon
+                class="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-300"
+                name="mail-outline"
+              ></ion-icon>
+            </div>
+
+            <div class="flex items-center mt-4">
+              <input type="checkbox" class="mr-3" required />
+              <span class="text-xs text-gray-400">
+                Autorizo o envio de comunicações por e-mail ou qualquer outro
+                meio e concordo com os Termos e Políticas de privacidade.
+              </span>
+            </div>
+
+            <div class="mt-8">
+              <button
+                class="bg-purple-900 py-4 w-full rounded-md text-sm font-bold"
+              >
+                EMBARCAR NA MISSÃO
+              </button>
+            </div>
+            <div class="flex items-center mt-8 justify-center">
+              <ion-icon
+                class="text-gray-300 mr-2"
+                name="shield-checkmark-outline"
+              ></ion-icon>
+              <h1 class="text-base font-semibold">
+                Seus dados estão
+                <span class="text-zinc-950">100% seguros</span>
+              </h1>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
